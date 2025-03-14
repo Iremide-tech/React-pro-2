@@ -13,6 +13,8 @@ body {
     text-align: center;
     margin: auto;
     margin-top: 20px;
+    justify-content: center;
+    position: relative;
   }
   
   h1 {

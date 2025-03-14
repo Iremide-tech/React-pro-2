@@ -25,6 +25,9 @@ const handleSubmit = (e) => {
 const ResetFun = () => {
   setValues({firstname: '', lastname: '', email: ''})
 }
+
+
+
   return (
     <>
       <div className='container'>
@@ -69,7 +72,7 @@ const ResetFun = () => {
 <button type="submit">Submit</button>
 <button type="reset" onClick={ResetFun}>Reset</button>
    </form>
-
+   
       </div>
     </>
   )
