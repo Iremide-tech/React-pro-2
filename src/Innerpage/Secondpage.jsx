@@ -15,9 +15,11 @@ function Secondpage() {
   }
   return (
     <div>
-        <h1>Resume Customization</h1>
+        <h1 className="font-serif ">Resume Customization</h1>
+       
         <button onClick={() => callApi()}>Call api</button>
         Response: {response}
+      
     </div>
   )
 }
