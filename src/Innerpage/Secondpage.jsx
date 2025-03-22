@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import './Secondpage.css'
 
 function Secondpage() {
   const [response, setResponse] = useState("");
@@ -17,7 +18,7 @@ function Secondpage() {
     <div>
         <h1 className="font-serif ">Resume Customization</h1>
        
-        <button onClick={() => callApi()}>Call api</button>
+        <button onClick={() => callApi()}>Preview Resume</button>
         Response: {response}
       
     </div>
